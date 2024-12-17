@@ -19,15 +19,17 @@ Upsy.mk is a mobile application designed for users to create and search for ride
 
 ## Screenshots
 
-*Add screenshots or GIFs of your app here to showcase its features.*
+| Screenshot 1 | Screenshot 2 |
+|--------------|--------------|
+| ![1](https://github.com/user-attachments/assets/ee39feb6-cc98-466a-8a99-cd67ffcd528d) | ![2](https://github.com/user-attachments/assets/a0516103-546d-4773-8c78-0944e0200dae) |
+| Screenshot 3 | Screenshot 4 |
+| ![3](https://github.com/user-attachments/assets/f8ced5e1-207e-40cb-b966-1e01acb241a9) | ![4](https://github.com/user-attachments/assets/5e7bc66b-a5ca-43af-a120-fa10955e579c) |
+| Screenshot 5 | |
+| ![5](https://github.com/user-attachments/assets/da707a0f-69f2-4393-8dc5-252547a9c2cd) | |
 
-![App Screenshot 1](./ss/1.png)
-![App Screenshot 2](./ss/2.png)
-![App Screenshot 3](./ss/3.png)
-![App Screenshot 4](./ss/4.png)
-![App Screenshot 5](./ss/5.png)
 
 ---
+
 
 ## Usage
 

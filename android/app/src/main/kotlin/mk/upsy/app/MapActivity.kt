@@ -28,7 +28,7 @@ import android.graphics.Color
 import android.os.Handler
 import android.os.Looper
 
-// Ensure this import is present
+
 import mk.upsy.app.R
 
 class MapActivity : AppCompatActivity(), OnMapReadyCallback {

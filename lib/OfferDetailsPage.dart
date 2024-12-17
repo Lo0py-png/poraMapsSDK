@@ -362,14 +362,14 @@ class OfferDetailsPage extends StatelessWidget {
                       _nativeBridge.showRoute(departure, arrival);
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.blue, // Button color
+                      backgroundColor: Colors.blue,
                       padding: const EdgeInsets.symmetric(
                           horizontal: 20, vertical: 12),
                       textStyle: const TextStyle(
                           fontSize: 16, fontWeight: FontWeight.bold),
                     ),
                     child: Text(
-                      'Прикажи патека', // "Show Route" in Macedonian
+                      'Прикажи патека',
                       style: GoogleFonts.montserrat(
                           color: Colors.white, fontWeight: FontWeight.bold),
                     ),
