@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "467000119099",
+    "project_id": "prevozi-mk",
+    "storage_bucket": "prevozi-mk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467000119099:android:470a058c17e6b248af311e",
+        "android_client_info": {
+          "package_name": "com.example.prevozi_mk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467000119099-5neq5pc9hlv6vvh34vt73n60vug77tuq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prevozi_mk",
+            "certificate_hash": "d6e13887a1a0c7a1e9e9f2bc84b4e47f1384d008"
+          }
+        },
+        {
+          "client_id": "467000119099-a19tvgiu6r9ubf2mpb71u1murnsn8e2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prevozi_mk",
+            "certificate_hash": "73c045b94dd1a6a4f2f6df0f8cda12af7ccadd43"
+          }
+        },
+        {
+          "client_id": "467000119099-k9niec7nf6n96d6fousiukf8gs4pvo1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prevozi_mk",
+            "certificate_hash": "71eee7ad296de2d22af6b74a282f308664acc39b"
+          }
+        },
+        {
+          "client_id": "467000119099-ps0jjn3j95g1trcc5dar074lr8qt92a8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prevozi_mk",
+            "certificate_hash": "53a7c9db3e54b4a811beb238d75da468b1f303ab"
+          }
+        },
+        {
+          "client_id": "467000119099-ttggun789kj5vnf237vbnb2lesfckibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-eNrwC5HdZ8v4KcTP5c2w17l6dNfh41g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467000119099-ttggun789kj5vnf237vbnb2lesfckibb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "467000119099-61qvvgt69guah03na1550jngurslhrif.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.prevoziMk.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467000119099:android:fedc9f2a5302e80baf311e",
+        "android_client_info": {
+          "package_name": "mk.upsy.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467000119099-5bcfqnvjjg3j0qj4vcoiv6g3cgjjpf0r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.upsy.app",
+            "certificate_hash": "53a7c9db3e54b4a811beb238d75da468b1f303ab"
+          }
+        },
+        {
+          "client_id": "467000119099-65set498scb7jpqjsiekh8ihb8laajjc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.upsy.app",
+            "certificate_hash": "d6e13887a1a0c7a1e9e9f2bc84b4e47f1384d008"
+          }
+        },
+        {
+          "client_id": "467000119099-sc7vvouab6bruouj63drku41b70m43io.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.upsy.app",
+            "certificate_hash": "71eee7ad296de2d22af6b74a282f308664acc39b"
+          }
+        },
+        {
+          "client_id": "467000119099-ttggun789kj5vnf237vbnb2lesfckibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-eNrwC5HdZ8v4KcTP5c2w17l6dNfh41g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467000119099-ttggun789kj5vnf237vbnb2lesfckibb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "467000119099-61qvvgt69guah03na1550jngurslhrif.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.prevoziMk.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Transportation Mode Spinner -->
+    <Spinner
+        android:id="@+id/spinner_transport_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/transport_modes"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Start Direction Button -->
+    <Button
+        android:id="@+id/button_start_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Direction"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_margin="16dp"/>
+
+    <!-- Animate Marker Button -->
+    <Button
+        android:id="@+id/button_animate_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animate Marker"
+        android:layout_above="@id/button_start_direction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_margin="16dp"/>
+
+    <!-- Directions RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_directions"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@id/button_animate_marker"
+        android:layout_margin="16dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:visibility="gone"/> <!-- Initially hidden -->
+
+</RelativeLayout>
