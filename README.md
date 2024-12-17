@@ -21,11 +21,11 @@ Upsy.mk is a mobile application designed for users to create and search for ride
 
 *Add screenshots or GIFs of your app here to showcase its features.*
 
-![App Screenshot 1](./ss/1.png)
-![App Screenshot 2](./ss/2.png)
-![App Screenshot 3](./ss/3.png)
-![App Screenshot 4](./ss/4.png)
-![App Screenshot 5](./ss/5.png)
+![App Screenshot 1](ss/1.png)
+![App Screenshot 2](ss/2.png)
+![App Screenshot 3](ss/3.png)
+![App Screenshot 4](ss/4.png)
+![App Screenshot 5](ss/5.png)
 
 ---
 
