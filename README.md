@@ -88,7 +88,7 @@ As of 2024, Google Maps SDK serves millions of developers and applications world
 
 ### **Project Maintenance**
 
-- **Last Update**: Integrated and updated in [Month, Year]. Regular updates are performed to keep the SDK and its integrations current with the latest features and security patches.
+- **Last Update**: Integrated and updated in [Dec, 2024]. Regular updates are performed to keep the SDK and its integrations current with the latest features and security patches.
 - **Community Support**: Active community forums and official support channels are available for troubleshooting and feature requests.
 
 ### **Implementation Details**
