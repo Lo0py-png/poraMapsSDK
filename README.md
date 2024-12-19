@@ -97,6 +97,34 @@ As of 2024, Google Maps SDK serves millions of developers and applications world
 - **Marker Placement**: Adding markers for departure and arrival points to enhance user experience.
 - **Navigation Launch**: Enabling users to launch Google Maps for detailed navigation from specified points.
 
+For implementing this in native code, while using flutter/dart for the rest of the application, we used so called platform channel. We make a single button, that will use the native bridge, that uses platform channel opening MainActivity and sending some parameters. The MainActivity then opens up MapActivity, using the parameters frm the MainActivity, the MapActivity performs a search using the Google Maps API, after which we parse the information from the API into our liking (geocoding, directions, etc..).
+
+**Preview of the native bridge(uses platform channel)**
+
+![image](https://github.com/user-attachments/assets/7d014210-2acf-4318-8fa1-c5cbc808ff5c)
+
+
+**MainActivity.kt getting data via the platform channel**
+
+![image](https://github.com/user-attachments/assets/b682b4f6-a358-4918-bc9b-08d3eaa19ea6)
+
+**Preview of some of the functions in MapActivity.kt**
+
+This is how we parse the cities and turn them into coordinates
+
+![image](https://github.com/user-attachments/assets/19552265-b39c-451f-91f4-bc58041f6454)
+
+
+This is where we add the markers on the map
+
+![image](https://github.com/user-attachments/assets/e2f9a94d-ec9b-4c8a-8d1d-55a09db745d1)
+
+
+When clicking on "Start route", Google Maps opens up!
+
+![image](https://github.com/user-attachments/assets/8ed9e739-5f73-4c79-879b-dfdf2ec976e3)
+
+
 ---
 
 ## License
